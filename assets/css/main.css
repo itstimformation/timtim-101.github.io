@@ -188,10 +188,11 @@
 
 		background: /* #348cb2 */ /* #818181 */ url("images/bg4.png") /* bottom left */;
 		background-repeat: repeat-x;
-		height: cover;
+		height: 100%;
+		background-size: cover;
 		left: 0;
 		opacity: 1;
-		position: fixed;
+		position: center fixed;
 		top: 0;
 	}
 
