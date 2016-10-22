@@ -188,7 +188,7 @@
 
 		background: /* #348cb2 */ /* #818181 */ url("images/bg6.png")  bottom left;
 		background-repeat: repeat-x;
-		height: 100%;
+		height: auto;
 		left: 0;
 		opacity: 1;
 		position: relative;
