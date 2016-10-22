@@ -191,7 +191,7 @@
 		height: 100%;
 		left: 0;
 		opacity: 1;
-		position: center fixed;
+		position: fixed;
 		top: 0;
 	}
 
