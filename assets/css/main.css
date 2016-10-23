@@ -186,13 +186,14 @@
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: /* #348cb2 */ /* #818181 */ url("images/bg6.png")  bottom left;
+		background: /* #348cb2 */ /* #818181 */ url("images/bg6.png") /*  bottom left */ center center;
 		background-repeat: repeat-x;
-		height: 200%;
+		height: 100%;
 		left: 0;
 		opacity: 1;
 		position: relative;
 		top: 0;
+
 	}
 
 	@-moz-keyframes bg {
@@ -260,8 +261,8 @@
 	}
 
 	#bg {
-		background-size: 2250px auto;
-		width: 6750px;
+		background-size: cover;
+		width: 100%;
 	}
 
 /* Overlay */
