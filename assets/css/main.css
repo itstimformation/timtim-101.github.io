@@ -20,6 +20,7 @@
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
+		margin:0px;
 	}
 
 	body {
@@ -188,6 +189,8 @@
 
 		background: /* #348cb2 */ /* #818181 */ url("images/bg6.png") /*  bottom left */ center center;
 		background-repeat: repeat-x;
+		max-height:100%;
+		overflow-x:hidden;
 		height: 100vh;
 		width: auto;
 		left: 0;
@@ -331,7 +334,7 @@
 	#main {
 		height: 100%;
 		left: 0;
-		position: fixed;
+		position: absolute;
 		text-align: center;
 		top: 0;
 		width: 100%;
@@ -343,7 +346,7 @@
 			height: 100%;
 			margin-right: 0;
 			vertical-align: middle;
-			width: 1px;
+			/*width: 1px;*/
 		}
 
 /* Header */
@@ -766,8 +769,9 @@
 		}
 
 		#bg {
-			background-size: 1500px auto;
-			width: 4500px;
+			background-size: cover;
+			width: auto;
+			height:100vh;
 		} }
 
 /* Normal */
@@ -848,8 +852,10 @@
 		}
 
 		#bg {
-			background-size: 750px auto;
-			width: 2250px;
+			background-size: contain;
+			width: auto;
+			background-repeat:inherit;
+			height:100vh;
 		} }
 
 /* Mobile */
@@ -936,6 +942,7 @@
 		#bg {
 			background-size: 300px auto;
 			width: 900px;
+			height:100vh;
 		}
 
 	/* Header */
@@ -1034,6 +1041,7 @@
 		#bg {
 			background-size: 412.5px auto;
 			width: 1237.5px;
+			height:100vh;
 		}
 
 	/* Header */
