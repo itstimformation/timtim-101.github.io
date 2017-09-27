@@ -91,7 +91,25 @@ article.portfolio img {
   margin: auto;
   margin-top: 3em;
   margin-bottom: 2em;
+  z-index: 1;
+  position: relative;
   /*transition: .3s ease;*/
+}
+
+img.portfolio-link-hover {
+  transform: skewX(25deg);
+  height: 60%;
+  display:none;
+  margin: auto;
+  margin-top: 3em;
+  margin-bottom: 2em;
+  z-index: 2;
+}
+
+img.portfolio-link-hover:hover {
+  display: inline;
+  position: absolute;
+  z-index: 2;
 }
 
 img.project:hover {
