@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="https://fonts.googleapis.com/css?family=Heebo:900" rel="stylesheet">
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
   <!--<link href="https://www.fontify.me/wf/d1d1943239bdc1297f6ae30575e05fd5" rel="stylesheet" type="text/css">-->
   <link href='css/style.css' type='text/css' rel='stylesheet' />
   <link rel="shortcut icon" href="images/Monogram.png" type="image/x-icon">
@@ -89,5 +92,23 @@
     </tr>
   </table>
 </article>
+<script>document.body.className += ' fade-out';
+$(function() {
+  $('body').removeClass('fade-out');
+});</script>
+<script>
+$("body").on('mouseover', 'a', function (e) {
+    var $link = $(this),
+        href = $link.attr('href') || $link.data("href");
+
+    $link.off('click.chrome');
+    $link.on('click.chrome', function () {
+        window.location.href = href;
+    })
+    .attr('data-href', href) //keeps track of the href value
+    .css({ cursor: 'pointer' })
+    .removeAttr('href'); // <- this is what stops Chrome to display status bar
+});
+</script>
 </body>
 </html>
