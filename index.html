@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='css/styles.css' type='text/css' rel='stylesheet' />
+  <link href="https://fonts.googleapis.com/css?family=Heebo:900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="images/Monogram.png" type="image/x-icon">
+  <title>Tim Davidson</title>
+</head>
+
+<nav>
+  <ul class="nav">
+    <li><a href="index.html">Home</a></li>
+    <!--<li><a href="about.html">About</a></li>-->
+    <li><a href="portfolio.html">Portfolio</a></li>
+    <!--<li><a href="cv.html">CV</a></li>-->
+    <li><a href="contact.html">Hire</a></li>
+  </ul>
+</nav>
+
+<br>
+
+<body onLoad="window.scroll(0, 0)">
+  <article class="overlay" id="about">
+    <div class="picture">
+      <img src="images/portrait.jpg" class="portrait">
+    </div>
+    <div class="about">
+      <p class="about">
+        Hey, I’m Tim Davidson. I’m 21 years old and currently studying Interaction
+        Design at Ulster University Belfast. I love good typography and a brand
+        that makes you stop and wish that you had thought of it! Also I love
+        technology, it’s wicked cool.
+      </p>
+
+      <p class="about">
+        I live in Belfast but also have a love for Canada, spending almost half of
+        my year working there! I love adventure sports, listening to music, and
+        really good food!
+      </p>
+
+      <p class="about">
+        I have a slight addiction to Adobe products and spend a lot of my spare
+        time playing about with Illustrator, finding new tools that I didn’t
+        even know existed.
+      </p>
+    </div>
+    <div class="social media">
+      <table class="social">
+        <tr>
+          <td>
+              <a href="https://github.com/timtim-101" id="github"> <img src="images/github.png" onmouseover="this.src='images/github-white.png'" onmouseout="this.src='images/github.png'" > </a>
+              <!--<img src=images/github.png class="contact">-->
+          </td>
+          <td>
+              <a href="https://www.instagram.com/thetimexperiments/" id="insta"> <img src="images/insta.png" onmouseover="this.src='images/insta-white.png'" onmouseout="this.src='images/insta.png'" > </a>
+              <!--<img src=images/insta.png class="contact">-->
+          </td>
+          <td>
+              <a href="http://timtim-101.tumblr.com/" id="tumblr"> <img src="images/tumblr.png" onmouseover="this.src='images/tumblr-white.png'" onmouseout="this.src='images/tumblr.png'" > </a>
+              <!--<img src=images/email.png class="contact">-->
+          </td>
+          <td>
+              <a href="mailto:tim@tim-davidson.com" id="email"> <img src="images/email.png" onmouseover="this.src='images/email-white.png'" onmouseout="this.src='images/email.png'" > </a>
+              <!--<img src=images/email.png class="contact">-->
+          </td>
+        </tr>
+      </table>
+    </div>
+  </article>
+
+  <article class="monogram">
+    <img src="images/Monogram.png" class="monogram">
+    <!--<img src="images/animated-monogram.gif" class="animated-monogram">-->
+  </article>
+
+<br>
+
+  <article class="arrow">
+  <!--<img src="images/arrow.png" class="arrow" id="slide" onmouseover="this.src='images/arrow-black.png';" onmouseout="this.src='images/arrow.png';">-->
+  </article>
+
+  <label for="checkbox" name="overlay">
+    <input type="checkbox" id="checkbox" class="check">
+      <div class="square">
+        <img src="images/marque.png" class="arrow">
+      </div>
+  </label>
+
+
+
+  <script>
+      window.addEventListener("scroll", function() {
+          if (window.scrollY > 50) {
+              $('ul.nav').fadeIn();
+          }
+          else {
+              $('ul.nav').fadeOut();
+          }
+      },false);
+  </script>
+  <script type="text/javascript">$(document).ready(function(){$("ul.nav").hide()});</script>
+  <script>document.body.className += ' fade-out';
+  $(function() {
+    $('body').removeClass('fade-out');
+});</script>
+
+  <script>
+  $("body").on('mouseover', 'a', function (e) {
+      var $link = $(this),
+          href = $link.attr('href') || $link.data("href");
+
+      $link.off('click.chrome');
+      $link.on('click.chrome', function () {
+          window.location.href = href;
+      })
+      .attr('data-href', href) //keeps track of the href value
+      .css({ cursor: 'pointer' })
+      .removeAttr('href'); // <- this is what stops Chrome to display status bar
+  });
+  </script>
+
+  <script>
+  $(".overlay").hide();
+$(".check").click(function() {
+    if($(this).is(":checked")) {
+        $(".overlay").fadeIn(1000);
+    } else {
+        $(".overlay").fadeOut(1000);
+    }
+});
+</script>
+
+</body>
+</html>
