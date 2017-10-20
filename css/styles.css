@@ -900,3 +900,7 @@ table.social-media img {
   padding-right: .5vw;
   padding-left: .5vw;
 }
+
+a.social-media:hover {
+  opacity: .6;
+}
