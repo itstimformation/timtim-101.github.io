@@ -259,6 +259,12 @@
   Designed and Coded by Tim Davidson
 </footer>
 
+
+<script>
+  document.body.className += ' fade-out';
+  $(function() {
+    $('body').removeClass('fade-out');
+  });</script>
   <script>
   $("body").on('mouseover', 'a', function (e) {
       var $link = $(this),
