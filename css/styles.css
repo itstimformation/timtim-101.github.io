@@ -41,6 +41,16 @@ body{
   src:url('../fonts/OpenSans-Light.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Open Sans Bold';
+  src:url('../fonts/OpenSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans Light Italic';
+  src:url('../fonts/OpenSans-LightItalic.ttf') format('truetype');
+}
+
 
 ::-webkit-scrollbar {
     display: none;
@@ -442,7 +452,6 @@ h2.title {
   font-family: Helvetica;
   font-size: 4.1vw;
   bottom: 40vh;
-
 }
 
 h3.subtitle {
@@ -903,4 +912,185 @@ table.social-media img {
 
 a.social-media:hover {
   opacity: .6;
+}
+
+/*----------------- HIRE -------------------*/
+
+article.hire-cover {
+  width: 100vw;
+  height: 40vh;
+  position: relative;
+  top: 10vh;
+  background: url(../images/hire/cover.png) 0vh -8vh no-repeat;
+  background-size: cover;
+  display: inline-block;
+  background-attachment: fixed;
+}
+
+h2.hire-title {
+  color: #333333;
+  font-family: Helvetica;
+  font-size: 5vw;
+  bottom: 40vh;
+}
+
+article.title {
+  width: 100vw;
+  height: auto;
+  position: relative;
+  display: inline-block;
+  margin-top: 12vh;
+  left: 10vw;
+}
+
+h2.title {
+  color: #333333;
+  font-family: Helvetica;
+  font-size: 4.1vw;
+  bottom: 40vh;
+
+}
+
+h3.subtitle {
+  font-family: 'HelveticaRoman';
+  color: #8c8c8c;
+  font-size: 1.8vw;
+  font-style: normal;
+  margin-left: .2vw;
+}
+
+table.profile {
+  /*border: 1px solid black;*/
+  width: 80vw;
+  height: auto;
+  margin: auto;
+  padding-left: .2vw;
+}
+
+td#profile {
+  width: 25vw;
+  padding-right: 20vw;
+}
+
+a.pdf {
+  color: #94c5c7;
+  text-decoration: none;
+}
+
+a.pdf:hover {
+  opacity: .5;
+}
+
+article.content {
+
+  width: 80vw;
+  height: 100vh;;
+  margin: auto;
+  margin-top: 8vh;
+  margin-bottom: 5vh;
+}
+
+article.education {
+  height: 50vh;
+  width: 24vw;
+  position: absolute;
+  float: left;
+  margin-left: 1.5vw;
+}
+
+article.skills {
+  height: 50vh;
+  width: 25vw;
+  margin-left: 27.5vw;
+  position: absolute;
+}
+
+article.info {
+  height: 50vh;
+  width: 25vw;
+  margin-left: 65vw;
+  position: absolute;
+  float: right;
+}
+
+p.heading {
+  font-family: 'Helvetica';
+  color: #94c5c7;
+  font-size: 3.3vw;
+}
+
+p.new-heading {
+  font-family: 'Helvetica';
+  color: #94c5c7;
+  font-size: 3.3vw;
+  padding-top: 6vh;
+}
+
+p.item {
+  margin-top: 4vh;
+}
+
+span.sub-head {
+  font-family: 'Open Sans Bold';
+  color: #5c5a5c;
+  font-size: 1.5vw;
+  display: block;
+  padding-bottom: 1vh;
+}
+
+p.item {
+  font-family: 'Open Sans Light';
+  line-height: 2.3vh;
+  font-size: 1vw;
+}
+
+span.info {
+  font-family: 'Open Sans Light Italic';
+  color: #939393;
+  font-size: 1vw;
+  display: block;
+  padding-top: 1vh;
+}
+
+a.paul {
+  text-decoration: none;
+  color: #939393;
+}
+
+a.paul:hover {
+  opacity: .6;
+}
+
+img.info {
+  width: 1.2vw;
+
+}
+
+img.new-info {
+  width: 1.2vw;
+  margin-top: 5vh;
+}
+
+p.contact-item {
+  font-family: 'Open Sans Light';
+  line-height: 2.9vh;
+  font-size: 1.1vw;
+  margin-top: 1vh;
+}
+
+a.contact-link {
+  text-decoration: none;
+  color: black;
+}
+
+a.contact-link:hover {
+  opacity: .6;
+}
+
+.footer {
+  text-align: center;
+  color: #333333;
+  opacity: .4;
+  margin-bottom: 2vh;
+  padding-top: 5vh;
 }
