@@ -95,90 +95,72 @@
   </label>
 
 
+<script>
 
-  <script>
-      window.addEventListener("scroll", function() {
-          if (window.scrollY > 50) {
-              $('ul.nav').fadeIn();
-              $('img.arrow').fadeIn();
-          }
-          else {
-              $('ul.nav').fadeOut();
-              $('img.arrow').fadeOut();
-          }
-      },false);
-  </script>
-  <script type="text/javascript">$(document).ready(function(){$("ul.nav").hide()});</script>
-  <script>document.body.className += ' fade-out';
-  $(function() {
-    $('body').removeClass('fade-out');
-});</script>
-
-  <script>
-  $("body").on('mouseover', 'a', function (e) {
-      var $link = $(this),
-          href = $link.attr('href') || $link.data("href");
-
-      $link.off('click.chrome');
-      $link.on('click.chrome', function () {
-          window.location.href = href;
-      })
-      .attr('data-href', href) //keeps track of the href value
-      .css({ cursor: 'pointer' })
-      .removeAttr('href'); // <- this is what stops Chrome to display status bar
-  });
-  </script>
-
-  <script>
-  $(".overlay").hide();
+$(".overlay").hide();
 $(".check").click(function() {
-    if($(this).is(":checked")) {
-        $(".overlay").fadeIn(1000);
-    } else {
-        $(".overlay").fadeOut(1000);
-    }
+  if($(this).is(":checked")) {
+      $(".overlay").fadeIn(1000);
+  } else {
+      $(".overlay").fadeOut(1000);
+  }
 });
+
 </script>
 
-<!--<script>
-// viewport stuff
-var targetWidth = 980;
-var deviceWidth = 'device-width';
-var viewport = $('meta[name="viewport"]');
+<script>
 
-// check to see if local storage value is set on page load
-localStorage.isResponsive = (localStorage.isResponsive == undefined) ? 'true' : localStorage.isResponsive;
+if (screen.width >=1100) {
 
-var showFullSite = function(){
-    viewport.attr('content', 'width=' + targetWidth);
+  window.addEventListener("scroll", function() {
+      if (window.scrollY > 50) {
+          $('ul.nav').fadeIn();
+          $('img.arrow').fadeIn();
+      }
+      else {
+          $('ul.nav').fadeOut();
+          $('img.arrow').fadeOut();
+      }
+  },false);
 
-    if(!$('#view-options #view-responsive').length){
-        $('#view-options').append('View Mobile Optimized');
-    }
+  $(document).ready(function(){$("ul.nav").hide()});
 
-    localStorage.isResponsive = 'false';
+  document.body.className += ' fade-out';
+
+  $(function() {
+  $('body').removeClass('fade-out');
+  });
+
+
+  $("body").on('mouseover', 'a', function (e) {
+  var $link = $(this),
+      href = $link.attr('href') || $link.data("href");
+
+  $link.off('click.chrome');
+  $link.on('click.chrome', function () {
+      window.location.href = href;
+  })
+  .attr('data-href', href) //keeps track of the href value
+  .css({ cursor: 'pointer' })
+  .removeAttr('href'); // <- this is what stops Chrome to display status bar
+  });
+
+
+
+  $(".overlay").hide();
+  $(".check").click(function() {
+  if($(this).is(":checked")) {
+    $(".overlay").fadeIn(1000);
+  } else {
+    $(".overlay").fadeOut(1000);
+  }
+  });
+
 }
 
-var showMobileOptimized = function(){
-    localStorage.isResponsive = 'true';
-    viewport.attr('content', 'width=' + deviceWidth);
-}
 
-// if the user previously chose to view full site, change the viewport
-if(Modernizr.localstorage){
-    if(localStorage.isResponsive == 'false'){
-        showFullSite();
-    }
-}
 
-$("#view-full").on("click", function(){
-    showFullSite();
-});
-
-$('#view-options').on("click", "#view-responsive", function(){
-    showMobileOptimized();
-});
-</script>-->
+</script>
 
 </body>
 </html>
