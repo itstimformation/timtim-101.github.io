@@ -106,6 +106,7 @@ $(".check").click(function() {
   }
 });
 
+
 </script>
 
 <script>
@@ -145,16 +146,6 @@ if (screen.width >=1100) {
   .removeAttr('href'); // <- this is what stops Chrome to display status bar
   });
 
-
-
-  $(".overlay").hide();
-  $(".check").click(function() {
-  if($(this).is(":checked")) {
-    $(".overlay").fadeIn(1000);
-  } else {
-    $(".overlay").fadeOut(1000);
-  }
-  });
 
 }
 

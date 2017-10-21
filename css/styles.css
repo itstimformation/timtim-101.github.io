@@ -1176,8 +1176,8 @@ img.arrow {
 article.overlay {
   background-color: #f2f2f2;
   width:80vw;
-  height: 70vh;
-  margin-top: 10vh;
+  height: 78vh;
+  margin-top: 3vh;
   left: 50%;
   transform: translateX(-50%);
   z-index: 3;
@@ -1188,12 +1188,35 @@ article.overlay {
 img.portrait {
   height: 25vh;
   width: auto;
-  margin-left: 15vw;
+  margin-left: 25vw;
   margin-top: 2vh;
 }
 
+div.about {
+  margin-top: 2vh;
+  width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+p.about {
+  font-family: 'Open Sans';
+  font-size: 3.5vw;
+  color: #333333;
+  opacity: .7;
+  padding-top: 1.3vh;
+  letter-spacing: 4px;
+}
 
+table.social {
+  margin: auto;
+  padding-top: 3vh;
+}
+
+table.social img {
+  padding-right: 4vw;
+  height: 8vw;
+}
 
 
 
