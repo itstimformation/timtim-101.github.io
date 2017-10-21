@@ -1159,7 +1159,7 @@ img.monogram {
   transition: all 0.75s 0.25s;
   transform: rotate(0);
   z-index: 5;
-  margin-top: 30vh;
+  margin-top: 28vh;
 }
 
 img.arrow {
