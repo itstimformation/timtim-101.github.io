@@ -1123,7 +1123,7 @@ nav ul li {
   font-family: 'Open Sans Light';
   padding-left: 3vw;
   padding-right: 3vw;
-  letter-spacing: 10px;
+  letter-spacing: 2px;
   display: inline-block;
   text-transform: uppercase;
 }
@@ -1159,7 +1159,7 @@ img.monogram {
   transition: all 0.75s 0.25s;
   transform: rotate(0);
   z-index: 5;
-  margin-top: 35vh;
+  margin-top: 30vh;
 }
 
 img.arrow {
@@ -1177,7 +1177,7 @@ article.overlay {
   background-color: #f2f2f2;
   width:80vw;
   height: 78vh;
-  margin-top: 3vh;
+  margin-top: 0vh;
   left: 50%;
   transform: translateX(-50%);
   z-index: 3;
@@ -1186,14 +1186,15 @@ article.overlay {
 }
 
 img.portrait {
-  height: 25vh;
+  height: 22vh;
   width: auto;
   margin-left: 25vw;
   margin-top: 2vh;
+  margin-bottom: 0;
 }
 
 div.about {
-  margin-top: 2vh;
+  margin-top: 0vh;
   width: 70vw;
   margin-left: auto;
   margin-right: auto;
@@ -1205,12 +1206,12 @@ p.about {
   color: #333333;
   opacity: .7;
   padding-top: 1.3vh;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
 }
 
 table.social {
   margin: auto;
-  padding-top: 3vh;
+  padding-top: 2vh;
 }
 
 table.social img {
