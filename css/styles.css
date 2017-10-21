@@ -971,6 +971,7 @@ table.profile {
 td#profile {
   width: 25vw;
   padding-right: 20vw;
+  line-height: 3vh;
 }
 
 a.pdf {
@@ -1029,6 +1030,7 @@ p.new-heading {
 
 p.item {
   margin-top: 4vh;
+  line-height: 3vh;
 }
 
 span.sub-head {
@@ -1041,7 +1043,7 @@ span.sub-head {
 
 p.item {
   font-family: 'Open Sans Light';
-  line-height: 2.3vh;
+  line-height: 2.5vh;
   font-size: 1vw;
 }
 
