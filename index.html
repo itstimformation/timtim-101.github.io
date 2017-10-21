@@ -100,9 +100,11 @@
       window.addEventListener("scroll", function() {
           if (window.scrollY > 50) {
               $('ul.nav').fadeIn();
+              $('img.arrow').fadeIn();
           }
           else {
               $('ul.nav').fadeOut();
+              $('img.arrow').fadeOut();
           }
       },false);
   </script>
