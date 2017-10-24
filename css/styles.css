@@ -1594,33 +1594,82 @@ img.final6 {
   transform: translateX(-50%);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*----------------- HUSSLE PROJECT -------------------*/
 
-article.uubcu-cover {
+article.hussle-cover {
   width: 100vw;
   height: 20vh;
   position: relative;
   top: 3vh;
-  background: url(../images/uubcu/cover.png) center -10vh no-repeat;
-  background-size: cover;
+  background: url(../images/hussle/cover.png) center -7vh no-repeat;
+  background-size: 150vw ;
 }
 
+img.hussle-final {
+  width: 80vw;
+  height: auto;
+  margin-top: 0vh;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
 
+img.hussle1 {
+  height: auto;
+  width: 80vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
 
+img.hussle2 {
+  height: auto;
+  width: 80vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+img.hussle3 {
+  height: auto;
+  width: 80vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+img.hussle4 {
+  height: auto;
+  width: 80vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+img.hussle5 {
+  height: auto;
+  width: 80vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+img.hussle6 {
+  height: auto;
+  width: 80vw;
+  margin-left: 50%;
+  margin-top: -10vh;
+  transform: translateX(-50%);
+}
+
+img.hussle7 {
+  height: auto;
+  width: 80vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+img.hussle8 {
+  height: auto;
+  width: 80vw;
+  margin-left: 50%;
+  margin-top: -10vh;
+  transform: translateX(-50%);
+}
 
 
 
