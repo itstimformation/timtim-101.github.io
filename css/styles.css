@@ -748,6 +748,7 @@ img.uubcu1 {
   margin-left: 50%;
   transform: translateX(-50%);
 }
+
 img.uubcu2 {
   height: auto;
   width: 38vw;
@@ -1492,12 +1493,131 @@ img.am-final {
   transform: translateX(-50%);
 }
 
+/*----------------- UUBCU PROJECT -------------------*/
+
+article.uubcu-cover {
+  width: 100vw;
+  height: 20vh;
+  position: relative;
+  top: 3vh;
+  background: url(../images/uubcu/cover.png) center -10vh no-repeat;
+  background-size: cover;
+}
+
+img.uubcu1 {
+  height: auto;
+  width: 90vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+img.uubcu2 {
+  height: auto;
+  width: 90vw;
+  float: left;
+  margin-top: -10vh;
+  margin-bottom: 4vh;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+img.uubcu3 {
+  height: auto;
+  width: 70vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+img.uubcu5 {
+  height: auto;
+  width: 90vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+img.uubcu7 {
+  height: auto;
+  width: 90vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+img.uubcu8 {
+  height: auto;
+  width: 90vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+img.final1 {
+  height: auto;
+  width: 90vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+img.final2 {
+  height: auto;
+  width: 90vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+
+img.final3 {
+  height: auto;
+  width: 90vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+
+img.final4 {
+  height: auto;
+  width: 90vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+
+img.final5 {
+  height: auto;
+  width: 90vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+img.final6 {
+  height: auto;
+  width: 90vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
 
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+/*----------------- HUSSLE PROJECT -------------------*/
+
+article.uubcu-cover {
+  width: 100vw;
+  height: 20vh;
+  position: relative;
+  top: 3vh;
+  background: url(../images/uubcu/cover.png) center -10vh no-repeat;
+  background-size: cover;
+}
 
 
 
