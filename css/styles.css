@@ -828,7 +828,7 @@ img.final6 {
   transform: translateX(-50%);
 }
 
-/*----------------- CONTACT -------------------*/
+/*----------------- HIRE -------------------*/
 
 h2.contact {
   color: #333333;
@@ -984,7 +984,6 @@ a.pdf:hover {
 }
 
 article.content {
-
   width: 80vw;
   height: 100vh;;
   margin: auto;
@@ -1671,19 +1670,151 @@ img.hussle8 {
   transform: translateX(-50%);
 }
 
+/*----------------- HIRE -------------------*/
 
+article.hire-cover {
+  width: 100vw;
+  height: 20vh;
+  position: relative;
+  top: 3vh;
+  background: url(../images/hire/cover.png) center -8vh no-repeat;
+  background-size: 400vw;
+}
 
+h2.hire-title {
+  color: #333333;
+  font-family: 'Helvetica';
+  font-size: 20vw;
+  bottom: 40vh;
+}
 
+table.profile td {
+  display: block;
+  padding-bottom: 3vh;
+}
 
+a.pdf {
+  color: #94c5c7;
+  text-decoration: underline;
+}
 
+article.content {
+  width: 80vw;
+  height: 100vh;;
+  margin: auto;
+  margin-top: 8vh;
+  margin-bottom: 5vh;
+  position: absolute;
+}
 
+article.education {
+  height: 50vh;
+  width: 80vw;
+  position: absolute;
+  margin-left: 3vw;
+}
 
+article.skills {
+  height: 80vw;
+  width: 80vw;
+  margin-top: 115vh;
+  position: absolute;
+  display: block;
+  margin-left: 3vw;
+}
 
+article.info {
+  height: 80vw;
+  width: 80vw;
+  margin-top: 245vh;
+  position: absolute;
+  float: right;
+  display: block;
+  margin-left: 3vw;
+}
 
+p.heading {
+  font-family: 'Helvetica';
+  color: #94c5c7;
+  font-size: 7vw;
+}
 
+p.new-heading {
+  font-family: 'Helvetica';
+  color: #94c5c7;
+  font-size: 8vw;
+  padding-top: 6vh;
+}
 
+p.item {
+  margin-top: 4vh;
+  line-height: 3vh;
+}
 
+span.sub-head {
+  font-family: 'Open Sans Bold';
+  color: #5c5a5c;
+  font-size: 6vw;
+  display: block;
+  padding-bottom: 1vh;
+}
 
+p.item {
+  font-family: 'Open Sans Light';
+  line-height: 3.5vh;
+  font-size: 5vw;
+}
+
+span.info {
+  font-family: 'Open Sans Light Italic';
+  color: #939393;
+  font-size: 5vw;
+  display: block;
+  padding-top: 1vh;
+  line-height: 3.5vh;
+}
+
+a.paul {
+  text-decoration: underline;
+  color: #939393;
+}
+
+a.paul:hover {
+  opacity: .6;
+}
+
+img.info {
+  width: 10vw;
+}
+
+img.new-info {
+  width: 10vw;
+  margin-top: 5vh;
+}
+
+p.contact-item {
+  font-family: 'Open Sans Light';
+  line-height: 2.9vh;
+  font-size: 5vw;
+  margin-top: 1vh;
+}
+
+a.contact-link {
+  text-decoration: underline;
+  color: black;
+}
+
+a.contact-link:hover {
+  opacity: .6;
+}
+
+.footer {
+  text-align: center;
+  color: #333333;
+  opacity: .4;
+  margin-bottom: 2vh;
+  padding-top: 355vh;
+}
 
 
 }
