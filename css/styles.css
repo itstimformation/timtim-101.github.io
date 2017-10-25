@@ -1080,6 +1080,10 @@ p.contact-item {
   margin-top: 1vh;
 }
 
+span.job {
+  font-family: 'Open Sans Bold';
+}
+
 a.contact-link {
   text-decoration: none;
   color: black;
@@ -1094,7 +1098,7 @@ a.contact-link:hover {
   color: #333333;
   opacity: .4;
   margin-bottom: 2vh;
-  padding-top: 5vh;
+  padding-top: 40vh;
 }
 
 }
@@ -1717,7 +1721,7 @@ article.education {
 article.skills {
   height: 80vw;
   width: 80vw;
-  margin-top: 125vh;
+  margin-top: 215vh;
   position: absolute;
   display: block;
   margin-left: 3vw;
@@ -1726,7 +1730,7 @@ article.skills {
 article.info {
   height: 80vw;
   width: 80vw;
-  margin-top: 255vh;
+  margin-top: 380vh;
   position: absolute;
   float: right;
   display: block;
@@ -1813,7 +1817,7 @@ a.contact-link:hover {
   color: #333333;
   opacity: .4;
   margin-bottom: 2vh;
-  padding-top: 355vh;
+  padding-top: 505vh;
 }
 
 
