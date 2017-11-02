@@ -31,6 +31,10 @@ body{
   src:url('../fonts/HelveticaNeueLTStd-Roman.otf') format('opentype');
 }
 
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700);
+        body {
+            font-family: 'Open Sans', sans-serif;
+        }
 
 
 
@@ -82,6 +86,8 @@ nav ul{
 }
 
 nav ul li{
+  font-family: 'Open Sans Light';
+  font-weight: bold;
   display: inline;
   margin: 20px;
   padding-left: 1vw;
@@ -847,6 +853,25 @@ img.final6 {
 
 /*----------------- HIRE -------------------*/
 
+.button {
+  display: inline-block;
+  background-color: #333333;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1vw;
+    font-family: 'Open Sans Light';
+    margin-top: 5vh;
+}
+
+.button:hover {
+  background-color: #a6a6a6;
+  cursor: pointer;
+}
+
 h2.contact {
   color: #333333;
   font-family: Helvetica;
@@ -1050,7 +1075,7 @@ p.item {
 }
 
 span.sub-head {
-  font-family: 'Open Sans Bold';
+  font-weight: bold;
   color: #5c5a5c;
   font-size: 1.5vw;
   display: block;
@@ -1064,11 +1089,13 @@ p.item {
 }
 
 span.info {
-  font-family: 'Open Sans Light Italic';
+  font-family: 'Open Sans Light';
+  font-style: italic;
   color: #939393;
   font-size: 1vw;
   display: block;
   padding-top: 1vh;
+  line-height: 2.5vh;
 }
 
 a.paul {
@@ -1115,7 +1142,7 @@ a.contact-link:hover {
   color: #333333;
   opacity: .4;
   margin-bottom: 2vh;
-  padding-top: 40vh;
+  padding-top: 45vh;
 }
 
 }
@@ -1693,6 +1720,20 @@ img.hussle8 {
 
 /*----------------- HIRE -------------------*/
 
+.button {
+  display: inline-block;
+  background-color: #333333;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 5vw;
+    font-family: 'Open Sans Light';
+    margin-top: 5vh;
+}
+
 article.hire-cover {
   width: 100vw;
   height: 20vh;
@@ -1773,7 +1814,7 @@ p.item {
 }
 
 span.sub-head {
-  font-family: 'Open Sans Bold';
+  font-weight: bold;
   color: #5c5a5c;
   font-size: 6vw;
   display: block;
@@ -1787,7 +1828,9 @@ p.item {
 }
 
 span.info {
-  font-family: 'Open Sans Light Italic';
+  font-family: 'Open Sans';'
+  font-style: italic;
+  font-weight: lighter;
   color: #939393;
   font-size: 5vw;
   display: block;
