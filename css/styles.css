@@ -362,6 +362,41 @@ article.project4:hover {
   transition: all .3s ease-in-out;
 }
 
+/*----- PROJECT 5 --------*/
+
+article.project5 {
+  width: 34vw;
+  height: 90vh;
+  background-color: blue;
+  z-index: 2;
+  margin-left: 133vw;
+  position: absolute;
+  bottom: 0;
+  background: url(../images/space.png) center center no-repeat;
+  background-size: 105vh;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+article.project5:hover {
+  background-image: url(../images/space-grey.png);
+}
+
+a.project5 {
+  display: block;
+  height: 100%;
+  width: 100%;
+  z-index: 5;
+}
+
+#project5:hover #project {
+  opacity: 1;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
 /*----------------- ABOUT OVERLAY --------------------*/
 
 .overlay::after {
