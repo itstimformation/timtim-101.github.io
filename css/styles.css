@@ -361,7 +361,7 @@ article.project5 {
   margin-left: 133vw;
   position: absolute;
   bottom: 0;
-  background: url(../images/space.png) center center no-repeat;
+  background: url(../images/space.jpg) center center no-repeat;
   background-size: 105vh;
   -webkit-transition: all .3s ease-in-out;
   -moz-transition: all .3s ease-in-out;
@@ -369,7 +369,7 @@ article.project5 {
 }
 
 article.project5:hover {
-  background-image: url(../images/space-grey.png);
+  background-image: url(../images/space-grey.jpg);
 }
 
 a.project5 {
