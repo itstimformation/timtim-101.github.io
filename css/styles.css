@@ -32,11 +32,6 @@ body{
 }
 
 @font-face {
-  font-family: 'Arial';
-  src:url('../fonts/ARIBL0.ttf') format('truetype');
-}
-
-@font-face {
   font-family: 'Open Sans Light';
   src:url('../fonts/OpenSans-Light.ttf') format('truetype');
 }
