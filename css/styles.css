@@ -117,7 +117,7 @@ nav a:hover{
 
 article.monogram {
   width: 100vw;
-  height: 100vh;
+  height: 90vh;
   text-align: center;
   z-index: 1;
 }
@@ -148,14 +148,15 @@ article.white p {
 article.arrow {
   text-align: center;
   margin-bottom: 0vh;
+  z-index: 2;
 }
 
 img.arrow {
   height: 3.5vw;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 0vh;
-  padding-bottom: -2vh;
+  margin-top: vh;
+  padding-bottom: vh;
 }
 
 /*img.arrow:hover {
