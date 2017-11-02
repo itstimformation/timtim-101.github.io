@@ -1139,11 +1139,13 @@ a.contact-link:hover {
 }
 
 .footer {
+  font-family: 'Open Sans Light';
+  font-size: 2.3vh;
   text-align: center;
   color: #333333;
   opacity: .4;
   margin-bottom: 2vh;
-  padding-top: 45vh;
+  padding-top: 50vh;
 }
 
 }
