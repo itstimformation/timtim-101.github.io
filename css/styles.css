@@ -31,20 +31,7 @@ body{
   src:url('../fonts/HelveticaNeueLTStd-Roman.otf') format('opentype');
 }
 
-@font-face {
-  font-family: 'Open Sans Light';
-  src:url('../fonts/OpenSans-Light.ttf') format('truetype');
-}
 
-@font-face {
-  font-family: 'Open Sans Bold';
-  src:url('../fonts/OpenSans-Bold.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Open Sans Light Italic';
-  src:url('../fonts/OpenSans-LightItalic.ttf') format('truetype');
-}
 
 
 ::-webkit-scrollbar {
