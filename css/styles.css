@@ -1782,7 +1782,7 @@ article.education {
 article.skills {
   height: 80vw;
   width: 80vw;
-  margin-top: 215vh;
+  margin-top: 225vh;
   position: absolute;
   display: block;
   margin-left: 3vw;
@@ -1791,7 +1791,7 @@ article.skills {
 article.info {
   height: 80vw;
   width: 80vw;
-  margin-top: 380vh;
+  margin-top: 395vh;
   position: absolute;
   float: right;
   display: block;
@@ -1826,12 +1826,13 @@ span.sub-head {
 
 p.item {
   font-family: 'Open Sans Light';
+  font-weight: lighter;
   line-height: 3.5vh;
   font-size: 5vw;
 }
 
 span.info {
-  font-family: 'Open Sans';'
+  font-family: 'Open Sans Light';
   font-style: italic;
   font-weight: lighter;
   color: #939393;
@@ -1880,7 +1881,9 @@ a.contact-link:hover {
   color: #333333;
   opacity: .4;
   margin-bottom: 2vh;
-  padding-top: 505vh;
+  padding-top: 520vh;
+  font-family: 'Open Sans Light';
+  font-weight: lighter;
 }
 
 
