@@ -457,7 +457,7 @@ article.branding-cover {
   height: 40vh;
   position: relative;
   top: 10vh;
-  background: url(../images/branding-cover.png) 0vh -8vh no-repeat;
+  background: url(../images/branding-cover.jpg) 0vh -8vh no-repeat;
   background-size: cover;
   display: inline-block;
   background-attachment: fixed;
@@ -683,7 +683,7 @@ article.hussle-cover {
   height: 40vh;
   position: relative;
   top: 10vh;
-  background: url(../images/hussle/cover.png) 0vh -10vh no-repeat;
+  background: url(../images/hussle/cover.jpg) 0vh -10vh no-repeat;
   background-size: 100vw ;
   display: inline-block;
   background-attachment: fixed;
@@ -760,7 +760,7 @@ article.uubcu-cover {
   height: 40vh;
   position: relative;
   top: 10vh;
-  background: url(../images/uubcu/cover.png) 0vh -50vh no-repeat;
+  background: url(../images/uubcu/cover.jpg) 0vh -50vh no-repeat;
   background-size: 100vw;
   display: inline-block;
   background-attachment: fixed;
