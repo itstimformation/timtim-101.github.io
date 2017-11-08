@@ -519,7 +519,7 @@ table.overview {
 
 a.branding {
   color: #94c5c7;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a.branding:hover {
