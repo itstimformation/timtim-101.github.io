@@ -1340,6 +1340,20 @@ a.project4 {
   z-index: 5;
 }
 
+article.project5 {
+  width: 100vw;
+  height: 34vh;
+  background: url(../images/space.jpg) center -22vh no-repeat;
+  background-size: cover;
+}
+
+a.project5 {
+  display: block;
+  height: 100%;
+  width: 100%;
+  z-index: 5;
+}
+
 /*----------------- BRANDING PROJECT -------------------*/
 
 article.branding-cover {
@@ -1721,6 +1735,8 @@ img.hussle8 {
   transform: translateX(-50%);
 }
 
+
+
 /*----------------- HIRE -------------------*/
 
 .button {
@@ -1734,6 +1750,7 @@ img.hussle8 {
     display: inline-block;
     font-size: 5vw;
     font-family: 'Open Sans Light';
+    font-weight: lighter;
     margin-top: 5vh;
 }
 
@@ -1862,6 +1879,7 @@ img.new-info {
 
 p.contact-item {
   font-family: 'Open Sans Light';
+  font-weight: lighter;
   line-height: 2.9vh;
   font-size: 5vw;
   margin-top: 1vh;
