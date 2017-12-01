@@ -5,6 +5,7 @@
   margin: 0;
   font-size: 100%;
   line-height: 1em;
+  overflow-x: hidden;
 }
 
 body{
@@ -17,7 +18,7 @@ body{
   /*background-color: #fafafa;*/
   color: #333;
   line-height: 1.8;
-  overflow-x: scroll;
+  overflow-x: hidden;
   overflow-y: ;
 }
 
@@ -124,11 +125,11 @@ article.monogram {
 
 img.monogram {
   width: 10vw;
-  opacity: .6;
+  opacity: 1;
   padding-top: 35vh;
   margin-left: -4vw;
   position: fixed;
-  z-index: -1;
+  z-index: 1;
 
 }
 
@@ -174,7 +175,7 @@ img.arrow {
 .square {
   text-align: center;
   width: auto;
-  height: 3vw;
+  height: 4vw;
   transition: all 0.75s 0.25s;
   transform: rotate(0);
   margin-top: -4vh;
@@ -1035,7 +1036,7 @@ article.content {
 }
 
 article.education {
-  height: 50vh;
+  height: auto;
   width: 24vw;
   position: absolute;
   float: left;
@@ -1043,14 +1044,14 @@ article.education {
 }
 
 article.skills {
-  height: 50vh;
+  height: auto;
   width: 25vw;
   margin-left: 27.5vw;
   position: absolute;
 }
 
 article.info {
-  height: 50vh;
+  height: auto;
   width: 25vw;
   margin-left: 65vw;
   position: absolute;

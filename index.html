@@ -11,12 +11,17 @@
     gtag('config', 'UA-108636985-1');
   </script>
 
+  <script>
+
+  </script>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href='css/styles.css' type='text/css' rel='stylesheet' />
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="shortcut icon" href="images/Monogram.png" type="image/x-icon">
   <title>Tim Davidson - Interaction Design Student</title>
@@ -43,16 +48,16 @@
     </div>
     <div class="about">
       <p class="about">
-        Hey, I’m Tim Davidson. I’m 21 years old and currently studying Interaction
+        I’m Tim Davidson. I currently studying Interaction
         Design at Ulster University Belfast. I love good typography and a brand
-        that makes you stop and wish that you had thought of it! Also I love
-        technology, it’s wicked cool.
+        that makes you stop and wish that you had thought of it! I also love new and emerging
+        technology.
       </p>
 
       <p class="about">
         I live in Belfast but also have a love for Canada, spending almost half of
         my year working there! I love adventure sports, listening to music, and
-        really good food!
+        good food!
       </p>
 
       <p class="about">
@@ -86,8 +91,9 @@
   </article>
 
   <article class="monogram">
-    <img src="images/Monogram.png" class="monogram">
-    <!--<img src="images/animated-monogram.gif" class="animated-monogram">-->
+    <img src="images/Grey-60%.png" class="monogram" onmouseover="this.src='images/Monogram1.png'" onmouseout="this.src='images/Grey-60%.png'" >
+    <!--<img src="images/Monogram.png" class="monogram">
+    <img src="images/animated-monogram.gif" class="animated-monogram">-->
   </article>
 
 <br>
@@ -115,6 +121,37 @@ $(".check").click(function() {
   }
 });
 
+
+</script>
+
+<script>
+function randomPick(arr) {
+
+var selected = arr[Math.floor(Math.random()*arr.length)]
+
+return selected;
+}
+
+
+images =
+[
+
+"image1.png",
+"image2.png",
+"image3.png",
+"image4.png",
+"image5.png"
+]
+
+
+
+function randomHover () {
+
+var myImage = document.getElementById('hover');
+var selImage = randomPick(images);
+
+myImage.src = selImage;
+}
 
 </script>
 
