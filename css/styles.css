@@ -118,15 +118,16 @@ nav a:hover{
 
 article.monogram {
   width: 100vw;
-  height: 85vh;
+  height: 50vh;
   text-align: center;
   z-index: 1;
+  margin-top: 35vh;
 }
 
 img.monogram {
   width: 10vw;
-  opacity: 1;
-  padding-top: 35vh;
+  opacity: ;
+  padding-top: ;
   margin-left: -4vw;
   position: fixed;
   z-index: 1;
@@ -175,13 +176,16 @@ img.arrow {
 .square {
   text-align: center;
   width: auto;
-  height: 4vw;
+  height: 3.5vw;
   transition: all 0.75s 0.25s;
   transform: rotate(0);
   margin-top: -4vh;
   margin-bottom: 2vh;
   z-index: 5;
+}
 
+img.arrow:hover {
+  cursor: pointer;
 }
 
 #checkbox:checked + .square {
