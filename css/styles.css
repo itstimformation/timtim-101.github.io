@@ -391,6 +391,41 @@ a.project5 {
   transition: all .3s ease-in-out;
 }
 
+/*----- PROJECT 6 --------*/
+
+article.project6 {
+  width: 34vw;
+  height: 90vh;
+  background-color: blue;
+  z-index: 2;
+  margin-left: 166vw;
+  position: absolute;
+  bottom: 0;
+  background: url(../images/elements.jpg) center center no-repeat;
+  background-size: 105vh;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+article.project6:hover {
+  background-image: url(../images/elements-grey.jpg);
+}
+
+a.project6 {
+  display: block;
+  height: 100%;
+  width: 100%;
+  z-index: 5;
+}
+
+#project6:hover #project {
+  opacity: 1;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
 /*----------------- ABOUT OVERLAY --------------------*/
 
 .overlay::after {
