@@ -842,9 +842,7 @@ img.uubcu7 {
 
 img.uubcu8 {
   height: auto;
-  width: 30vw;
-  margin-left: 50%;
-  transform: translateX(-50%);
+  wid
 }
 
 img.final1 {
@@ -1000,6 +998,55 @@ a.social-media:hover {
 
 /*----------------- HIRE -------------------*/
 
+div.content {
+  display: grid;
+  grid-template-columns: 25vw 25vw 25vw;
+  grid-template-rows: 45vh auto 5vh;
+  margin-top: 10vh;
+  margin-left: 10vw;
+  grid-row-gap: 2vw;
+  grid-column-gap: 2vw;
+  overflow-y: hidden;
+}
+
+.box {
+  /*background-color: #444;
+  color: #fff;*/
+  padding: 20px;
+  font-size: 150%;
+  overflow-y: hidden;
+}
+
+.a {
+  grid-column-start: 1;
+  grid-column-end: -1;
+  overflow-y: hidden;
+}
+
+.b {
+  overflow-y: hidden;
+}
+
+.c {
+  overflow-y: hidden;
+}
+
+.d {
+  overflow-y: hidden;
+}
+
+.e {
+  grid-column-start: 1;
+  grid-column-end: -1;
+  overflow-y: hidden;
+}
+
+article.title {
+  margin-top: 0;
+  margin-left: 0;
+  overflow-y: hidden;
+}
+
 article.hire-cover {
   width: 100vw;
   height: 40vh;
@@ -1015,24 +1062,15 @@ h2.hire-title {
   color: #333333;
   font-family: Helvetica;
   font-size: 5vw;
-  bottom: 40vh;
-}
-
-article.title {
-  width: 100vw;
-  height: auto;
-  position: relative;
-  display: inline-block;
-  margin-top: 12vh;
-  left: 10vw;
+  margin-left: 0;
+  height: 11vh;
+  overflow-y: hidden;
 }
 
 h2.title {
   color: #333333;
   font-family: Helvetica;
   font-size: 4.1vw;
-  bottom: 40vh;
-
 }
 
 h3.subtitle {
@@ -1041,6 +1079,9 @@ h3.subtitle {
   font-size: 1.8vw;
   font-style: normal;
   margin-left: .2vw;
+  margin-top: -1.5vh;
+  height: 5vh;
+  overflow-y: hidden;
 }
 
 table.profile {
@@ -1048,13 +1089,14 @@ table.profile {
   width: 80vw;
   height: auto;
   margin: auto;
-  padding-left: .2vw;
+  padding-left: 10vw;
 }
 
 td#profile {
   width: 25vw;
   padding-right: 20vw;
   line-height: 3vh;
+  overflow-y: hidden;
 }
 
 a.pdf {
@@ -1186,8 +1228,8 @@ a.contact-link:hover {
   color: #333333;
   opacity: .4;
   margin-bottom: 2vh;
-  margin-top: 50vh;
   z-index: -10;
+  height: 4vh;
 }
 
 }
@@ -1767,6 +1809,11 @@ img.hussle8 {
 
 /*----------------- HIRE -------------------*/
 
+div.content {
+  display: grid;
+  grid-template-columns: 40vw 40vw 40vw;
+}
+
 .button {
   display: inline-block;
   background-color: #333333;
@@ -1801,6 +1848,7 @@ h2.hire-title {
 table.profile td {
   display: block;
   padding-bottom: 3vh;
+  font-weight: lighter;
 }
 
 a.pdf {
@@ -1930,6 +1978,7 @@ a.contact-link:hover {
   padding-top: 520vh;
   font-family: 'Open Sans Light';
   font-weight: lighter;
+  z-index: -1;
 }
 
 
