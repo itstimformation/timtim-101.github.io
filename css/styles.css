@@ -87,9 +87,9 @@ nav ul{
 }
 
 nav ul li{
-  font-family: 'Open Sans';
+  font-family: 'Open Sans Light';
   font-size: 1vw;
-  font-weight: bold;
+  font-weight: bolder;
   display: inline;
   margin: 20px;
   padding-left: 1vw;
