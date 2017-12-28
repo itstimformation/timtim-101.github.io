@@ -88,6 +88,7 @@ nav ul{
 
 nav ul li{
   font-family: 'Open Sans';
+  font-size: 1vw;
   font-weight: bold;
   display: inline;
   margin: 20px;
@@ -1155,6 +1156,7 @@ p.new-heading {
 p.item {
   margin-top: 4vh;
   line-height: 3vh;
+  overflow-y: hidden;
 }
 
 span.sub-head {
@@ -1179,6 +1181,7 @@ span.info {
   display: block;
   padding-top: 1vh;
   line-height: 2.5vh;
+  overflow-y: hidden;
 }
 
 a.paul {
@@ -1206,6 +1209,7 @@ p.contact-item {
   line-height: 2.9vh;
   font-size: 1.1vw;
   margin-top: 1vh;
+  overflow-y: hidden;
 }
 
 span.job {
