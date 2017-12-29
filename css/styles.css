@@ -1146,6 +1146,10 @@ p.heading {
   font-size: 3.3vw;
 }
 
+.contact {
+  margin-bottom: 4vh;
+}
+
 p.new-heading {
   font-family: 'Helvetica';
   color: #94c5c7;
