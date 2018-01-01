@@ -205,6 +205,7 @@ h2#project {
   left: 1vw;
   z-index: -1;
   opacity: 0;
+  overflow-y: hidden;
 }
 
 h3#project {
@@ -216,6 +217,15 @@ h3#project {
   left: 1vw;
   z-index: -1;
   opacity: 0;
+}
+
+.portfolio-item {
+  padding-top: 12vh;
+}
+
+h2.title {
+  overflow-y: hidden;
+  margin-bottom: 1vh;
 }
 
 /*----- PROJECT 1 --------*/
@@ -544,6 +554,7 @@ article.overview {
   font-family: 'Open Sans Light';
   color: #94c5c7;
   font-size: 2.4vh;
+  overflow-y: hidden;
 }
 
 span.overview {
@@ -556,6 +567,7 @@ table.overview {
   height: auto;
   margin: auto;
   padding-left: .2vw;
+  overflow-y: hidden;
 }
 
 a.branding {
@@ -576,17 +588,25 @@ td {
 td#overview {
   width: 18vw;
   padding-right: 20vw;
+  padding-bottom: 5px;
+  overflow-y: hidden;
 }
 
 
 /*----- MAIN CONTENT --------*/
 
+p {
+  overflow-y: hidden;
+}
+
 article.rowa {
   position: relative;
+  overflow-y: hidden;
 }
 
 article.rowb {
   position: relative;
+  overflow-y: hidden;
 }
 
 table.rowa {
@@ -1439,8 +1459,9 @@ article.branding-cover {
   height: 20vh;
   position: relative;
   top: 3vh;
-  background: url(../images/branding-cover.png) center -3vh no-repeat;
-  background-size: cover;
+  background: url(../images/branding-cover.png) center 2vh no-repeat;
+  background-size: 120vw;
+  background-attachment: fixed;
 }
 
 article.title {
@@ -1457,6 +1478,8 @@ h2.title {
   font-family: 'Helvetica';
   font-size: 12vw;
   bottom: 40vh;
+  overflow-y: hidden;
+  padding-bottom: 5px;
 }
 
 h3.subtitle {
@@ -1466,6 +1489,8 @@ h3.subtitle {
   font-style: normal;
   margin-left: .2vw;
   margin-top: .8vh;
+  padding-bottom: 10px;
+  overflow-y: hidden;
 }
 
 article.overview {
@@ -1485,6 +1510,8 @@ table.overview {
 
 table.overview td {
   display: block;
+  padding-bottom: 5px;
+  overflow-y: hidden;
 }
 
 span.overview {
@@ -1511,6 +1538,12 @@ table.project {
 
 table.project td {
   display: block;
+  overflow-y: hidden;
+}
+
+td#overview {
+  padding-bottom: 5px;
+  font-family: 'Open Sans Light';
 }
 
 table.project td {
@@ -1521,6 +1554,11 @@ table.project td {
   color: #808080;
   line-height: 4vh;
   margin-top: 4vh;
+  overflow-y: hidden;
+}
+
+table.final td {
+  overflow-y: hidden;
 }
 
 img.monogram1 {
@@ -1533,7 +1571,7 @@ img.monogram1 {
 img.monogram2 {
   height: auto;
   width: 90vw;
-  margin-top: -10vh;
+
   margin-left: 50%;
   transform: translateX(-50%);
 }
@@ -1642,8 +1680,9 @@ article.uubcu-cover {
   height: 20vh;
   position: relative;
   top: 3vh;
-  background: url(../images/uubcu/cover.png) center -10vh no-repeat;
+  background: url(../images/uubcu/cover.png) center -25vh no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 img.uubcu1 {
@@ -1657,7 +1696,6 @@ img.uubcu2 {
   height: auto;
   width: 90vw;
   float: left;
-  margin-top: -10vh;
   margin-bottom: 4vh;
   margin-left: 50%;
   transform: translateX(-50%);
@@ -1743,8 +1781,9 @@ article.hussle-cover {
   height: 20vh;
   position: relative;
   top: 3vh;
-  background: url(../images/hussle/cover.png) center -7vh no-repeat;
+  background: url(../images/hussle/cover.png) center 0vh no-repeat;
   background-size: 150vw ;
+  background-attachment: fixed;
 }
 
 img.hussle-final {
@@ -1794,7 +1833,7 @@ img.hussle6 {
   height: auto;
   width: 80vw;
   margin-left: 50%;
-  margin-top: -10vh;
+
   transform: translateX(-50%);
 }
 
@@ -1809,7 +1848,7 @@ img.hussle8 {
   height: auto;
   width: 80vw;
   margin-left: 50%;
-  margin-top: -10vh;
+
   transform: translateX(-50%);
 }
 
@@ -1861,6 +1900,7 @@ h2.hire-title {
   font-family: 'Helvetica';
   font-size: 20vw;
   bottom: 40vh;
+  overflow-y: hidden;
 }
 
 h3.subtitle {
