@@ -1452,6 +1452,20 @@ a.project4 {
   z-index: 5;
 }
 
+article.project6 {
+  width: 100vw;
+  height: 34vh;
+  background: url(../images/elements.jpg) center -6vh no-repeat;
+  background-size: cover;
+}
+
+a.project6 {
+  display: block;
+  height: 100%;
+  width: 100%;
+  z-index: 5;
+}
+
 /*----------------- BRANDING PROJECT -------------------*/
 
 article.branding-cover {
