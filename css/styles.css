@@ -490,9 +490,19 @@ p.about {
   line-height: 3vh;
 }
 
+a.blog-link {
+  text-decoration: none;
+  color: #94c5c7;
+  color: #f15958;
+}
+
+a.blog-link:hover {
+  opacity: .6;
+}
+
 table.social {
   margin-left: 23vw;
-  margin-top: 3.7vh;
+  margin-top: 1vh;
 }
 
 table.social img {
