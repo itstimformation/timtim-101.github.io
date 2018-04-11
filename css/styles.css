@@ -39,6 +39,7 @@ body{
 
 
 
+
 ::-webkit-scrollbar {
     display: none;
     -webkit-overflow-scrolling: touch;
@@ -87,9 +88,9 @@ nav ul{
 }
 
 nav ul li{
-  font-family: 'Open Sans Light';
+  font-family: 'Open Sans';
   font-size: 1vw;
-  font-weight: bolder;
+  font-weight: 400;
   display: inline;
   margin: 20px;
   padding-left: 1vw;
@@ -206,6 +207,7 @@ h2#project {
   z-index: -1;
   opacity: 0;
   overflow-y: hidden;
+  padding-bottom: 10px;
 }
 
 h3#project {
@@ -217,6 +219,7 @@ h3#project {
   left: 1vw;
   z-index: -1;
   opacity: 0;
+  padding-bottom: 10px;
 }
 
 .portfolio-item {
@@ -226,6 +229,7 @@ h3#project {
 h2.title {
   overflow-y: hidden;
   margin-bottom: 1vh;
+  padding-bottom: 10px;
 }
 
 /*----- PROJECT 1 --------*/
@@ -437,6 +441,76 @@ a.project6 {
   transition: all .3s ease-in-out;
 }
 
+/*----- PROJECT 7 --------*/
+
+article.project7 {
+  width: 34vw;
+  height: 90vh;
+  background-color: blue;
+  z-index: 2;
+  margin-left: 195vw;
+  position: absolute;
+  bottom: 0;
+  background: url(../images/sno.jpg) -2vw center; no-repeat;
+  background-size: cover;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+article.project7:hover {
+  background-image: url(../images/sno-grey.jpg);
+}
+
+a.project7 {
+  display: block;
+  height: 100%;
+  width: 100%;
+  z-index: 5;
+}
+
+#project7:hover #project {
+  opacity: 1;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+/*----- PROJECT 8 --------*/
+
+article.project8 {
+  width: 27vw;
+  height: 90vh;
+  background-color: blue;
+  z-index: 2;
+  margin-left: 225vw;
+  position: absolute;
+  bottom: 0;
+  background: url(../images/orbell.jpg) -28vw; no-repeat;
+  background-size: cover;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+article.project8:hover {
+  background-image: url(../images/orbell-grey.jpg);
+}
+
+a.project8 {
+  display: block;
+  height: 100%;
+  width: 100%;
+  z-index: 5;
+}
+
+#project8:hover #project {
+  opacity: 1;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
 /*----------------- ABOUT OVERLAY --------------------*/
 
 .overlay::after {
@@ -471,10 +545,11 @@ div.picture {
 img.portrait {
   height: 50vh;
   width: auto;
+  margin-right: 4em;
 }
 
 div.about {
-  margin-left: 23vw;
+  margin-left: 24vw;
   width: 50%;
   margin-top: -41.4vh;
 }
@@ -483,7 +558,7 @@ p.about {
   font-family: 'Open Sans';
   font-size: .9vw;
   margin-bottom: 2em;
-  margin-left: 2vw
+  margin-left: 3vw
   color: #333333;
   opacity: .6;
   letter-spacing: .1vw;;
@@ -501,7 +576,7 @@ a.blog-link:hover {
 }
 
 table.social {
-  margin-left: 23vw;
+  margin-left: 24vw;
   margin-top: 1vh;
 }
 
@@ -1032,7 +1107,7 @@ a.social-media:hover {
 div.content {
   display: grid;
   grid-template-columns: 25vw 25vw 25vw;
-  grid-template-rows: 45vh auto 5vh;
+  grid-template-rows: 45vh auto 7vh;
   margin-top: 10vh;
   margin-left: 10vw;
   grid-row-gap: 2vw;
@@ -1198,13 +1273,14 @@ span.sub-head {
   color: #5c5a5c;
   font-size: 1.5vw;
   display: block;
-  padding-bottom: 1vh;
+  padding-bottom:7px;
 }
 
 p.item {
   font-family: 'Open Sans Light';
   line-height: 2.5vh;
   font-size: 1vw;
+  padding-bottom: 5px;
 }
 
 span.info {
@@ -1216,6 +1292,7 @@ span.info {
   padding-top: 1vh;
   line-height: 2.5vh;
   overflow-y: hidden;
+  padding-bottom: 5px;
 }
 
 a.paul {
@@ -1470,6 +1547,34 @@ article.project6 {
 }
 
 a.project6 {
+  display: block;
+  height: 100%;
+  width: 100%;
+  z-index: 5;
+}
+
+article.project7 {
+  width: 100vw;
+  height: 34vh;
+  background: url(../images/sno.jpg) center -14vh no-repeat;
+  background-size: cover;
+}
+
+a.project7 {
+  display: block;
+  height: 100%;
+  width: 100%;
+  z-index: 5;
+}
+
+article.project8 {
+  width: 100vw;
+  height: 34vh;
+  background: url(../images/orbell.jpg)  no-repeat;
+  background-size: cover;
+}
+
+a.project8 {
   display: block;
   height: 100%;
   width: 100%;
@@ -2073,6 +2178,7 @@ a.contact-link:hover {
   padding-top: 4vh;
   font-family: 'Open Sans Light';
   font-weight: lighter;
+  font-size: 3em;
   z-index: -1;
   height: 5vh;
   overflow-y: hidden;
