@@ -92,7 +92,6 @@ nav ul{
 nav ul li{
   font-family: 'Open Sans';
   font-size: 1.3em;
-  font-weight: 400;
   display: inline;
   margin: 20px;
   padding-left: 1vw;
@@ -104,7 +103,6 @@ nav ul li a {
   text-decoration: none;
   opacity: .6;
   font-family: 'Open Sans';
-  font-weight: 400;
 }
 
 nav a:hover{
