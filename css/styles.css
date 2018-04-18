@@ -664,10 +664,12 @@ table.overview {
 a.branding {
   color: #94c5c7;
   text-decoration: underline;
+  padding-bottom: 10px;
 }
 
 a.branding:hover {
   opacity: .5;
+  padding-bottom: 10px;
 }
 
 td {
@@ -1745,6 +1747,7 @@ article.overview td {
 a.branding {
   color: #94c5c7;
   text-decoration: underline;
+  padding-bottom: 10px;
 }
 
 table.project {
@@ -1761,8 +1764,12 @@ table.project td {
 }
 
 td#overview {
-  padding-bottom: 5px;
+  padding-bottom: 10px;
   font-family: 'Open Sans Light';
+}
+
+td#link {
+  padding: 10px;
 }
 
 table.project td {
@@ -2070,6 +2077,37 @@ img.hussle8 {
 
   transform: translateX(-50%);
 }
+
+/*----------------- HUSSLE PROJECT -------------------*/
+
+td#image {
+  text-align: center;
+}
+
+img.sno1 {
+  width: 80vw;
+}
+
+img.sno2 {
+  width: 80vw;
+}
+
+img.sno3 {
+  width: 80vw;
+}
+
+img.sno4 {
+  width: 80vw;
+}
+
+img.sno5 {
+  width: 80vw;
+}
+
+iframe.prototype {
+  width: 70vw;
+}
+
 
 
 
