@@ -33,7 +33,7 @@ body{
 }
 
 @font-face {
-  font-family: 'Open Sans';
+  font-family: 'Open Regular';
   src:url('../fonts/OpenSans-Regular.ttf') format('truetype');
 }
 
@@ -43,17 +43,17 @@ body{
 }
 
 @font-face {
-  font-family: 'Open Sans Semibold';
+  font-family: 'Open Semibold';
   src:url('../fonts/OpenSans-Semibold.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'Open Sans Light Italic';
+  font-family: 'Open Light Italic';
   src:url('../fonts/OpenSans-LightItalic.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'Open Sans Bold';
+  font-family: 'Open Bold';
   src:url('../fonts/OpenSans-Bold.ttf') format('truetype');
 }
 
@@ -101,7 +101,7 @@ nav{
 
 ul.nav {
   text-align: center;
-  font-family: 'Open Sans';
+  font-family: 'Open Regula';
   font-weight: 100;
 }
 
@@ -114,7 +114,7 @@ nav ul{
 }
 
 nav ul li{
-  font-family: 'Open Sans';
+  font-family: 'Open Regular';
   font-size: 1.3em;
   display: inline;
   margin: 20px;
@@ -126,7 +126,7 @@ nav ul li a {
   color: #333333;
   text-decoration: none;
   opacity: .6;
-  font-family: 'Open Sans Light';
+  font-family: 'Open Light';
   font-weight: bold;
 }
 
@@ -268,7 +268,7 @@ div.about {
 }
 
 p.about {
-  font-family: 'Open Sans';
+  font-family: 'Open Regular';
   font-size: 1.8vh;
   margin-bottom: 2em;
   margin-left: 3vw
@@ -654,7 +654,7 @@ h3.subtitle {
 }
 
 h4 {
-  font-family: 'Open Sans';
+  font-family: 'Open Regular';
   color: #94c5c7;
   font-size: 1.3vw;
   bottom: 2vh;
@@ -746,7 +746,7 @@ table.project {
 table.project td {
   vertical-align: middle;
   width: 40vw;
-  font-family: 'Open Sans Light';
+  font-family: 'Open Light';
   font-size: 3vh;
   color: #808080;
   line-height: 4vh;
@@ -1123,7 +1123,7 @@ img.hussle8 {
   text-decoration: none;
   display: inline-block;
   font-size: 1em;
-  font-family: 'Open Sans Light';
+  font-family: 'Open Light';
   margin-top: 5vh;
 }
 
@@ -1198,7 +1198,7 @@ img.email {
 
 p.email {
   font-size: 2.8vh;
-  font-family: 'Open Sans Light';
+  font-family: 'Open Light';
   color: #94c5c7;
 }
 
@@ -1388,7 +1388,7 @@ span.sub-head {
 }
 
 p.item {
-  font-family: 'Open Sans Light';
+  font-family: 'Open Light';
   line-height: 2.5vh;
   font-size: 1em;
   padding-bottom: 5px;
@@ -1398,7 +1398,7 @@ p.item {
 }
 
 span.info {
-  font-family: 'Open Sans Light';
+  font-family: 'Open Light';
   font-style: italic;
   color: #939393;
   font-size: 1em;
@@ -1430,7 +1430,7 @@ img.new-info {
 }
 
 p.contact-item {
-  font-family: 'Open Sans Light';
+  font-family: 'Open Light';
   line-height: 2.9vh;
   font-size: 1em;
   margin-top: 1vh;
@@ -1438,7 +1438,7 @@ p.contact-item {
 }
 
 span.job {
-  font-family: 'Open Sans Bold';
+  font-family: 'Open Bold';
 }
 
 a.contact-link {
@@ -1451,7 +1451,7 @@ a.contact-link:hover {
 }
 
 .footer {
-  font-family: 'Open Sans Light';
+  font-family: 'Open Light';
   font-size: 2.3vh;
   text-align: center;
   color: #333333;
@@ -1487,7 +1487,7 @@ nav ul {
 
 nav ul li {
   font-size: 5vw;
-  font-family: 'Open Sans';
+  font-family: 'Open Regular';
   font-weight: lighter;
   padding-left: 3vw;
   padding-right: 3vw;
@@ -1570,7 +1570,7 @@ div.about {
 }
 
 p.about {
-  font-family: 'Open Sans';
+  font-family: 'Open Regular';
   font-size: 3.5vw;
   color: #333333;
   opacity: .7;
@@ -1789,7 +1789,7 @@ table.project td {
 
 td#overview {
   padding-bottom: 10px;
-  font-family: 'Open Sans Light';
+  font-family: 'Open Light';
 }
 
 td#link {
@@ -1799,7 +1799,7 @@ td#link {
 table.project td {
   vertical-align: middle;
   width: 90vw;
-  font-family: 'Open Sans Light';
+  font-family: 'Open Light';
   font-size: 3vh;
   color: #808080;
   line-height: 4vh;
@@ -2161,7 +2161,7 @@ div.content {
     text-decoration: none;
     display: inline-block;
     font-size: 1em;
-    font-family: 'Open Sans Light';
+    font-family: 'Open Light';
     font-weight: lighter;
     margin-top: 5vh;
 }
@@ -2266,7 +2266,7 @@ span.sub-head {
 }
 
 p.item {
-  font-family: 'Open Sans Light';
+  font-family: 'Open Light';
   font-weight: lighter;
   line-height: 3.5vh;
   font-size: 5vw;
@@ -2274,7 +2274,7 @@ p.item {
 }
 
 span.info {
-  font-family: 'Open Sans Light';
+  font-family: 'Open Light';
   font-style: italic;
   font-weight: lighter;
   color: #939393;
@@ -2305,7 +2305,7 @@ img.new-info {
 }
 
 p.contact-item {
-  font-family: 'Open Sans Light';
+  font-family: 'Open Light';
   font-weight: lighter;
   line-height: 2.9vh;
   font-size: 5vw;
@@ -2328,7 +2328,7 @@ a.contact-link:hover {
   opacity: .4;
   margin-bottom: 2vh;
   padding-top: 4vh;
-  font-family: 'Open Sans Light';
+  font-family: 'Open Light';
   font-weight: lighter;
   font-size: 2em;
   line-height: 1.5em;
